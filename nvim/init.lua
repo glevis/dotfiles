@@ -49,7 +49,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("plugins")
 
-vim.cmd[[colorscheme tokyonight-moon]]
+vim.cmd[[colorscheme gruvbox]]
 
 vim.keymap.set('n', '<leader>u', vim.cmd.UndotreeToggle)
 
